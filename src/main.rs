@@ -114,7 +114,7 @@ struct Cdb {
     val: i64,
 }
 
-// writeback
+fn writeback(curr: &State, mnext: &mut State) -> Option<Cdb> {}
 
 fn main() {
     return ();
